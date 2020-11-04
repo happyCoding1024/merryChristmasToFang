@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      overflow: hidden;
+    }
+
+    .page1 {
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      background-color: blue;
+    }
+
+    .page2 {
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+  <div class="page1">
+    我的背景是蓝色
+  </div>
+  <div class="page1">
+    我的背景是红色
+  </div>
+
+  <label for="page">
+    选择页面
+  </label>
+  <select name="pageSelect" id="page">
+    <option value="page1">page1</option>
+    <option value="page2">page2</option>
+  </select>
+</body>
+</html>
